@@ -1,6 +1,6 @@
 from tkinter import *
 from math import sqrt as sqr
-
+python -m tkinter
 
 class Calculator(Frame):
     """
