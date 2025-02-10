@@ -1,0 +1,10 @@
+# [ ] create, call and test fishstore() function 
+print("Report for Levi Fineberg")
+
+def fishstore(fish, price):
+    return "Fish Type " + fish.title(), "costs " + price
+
+fish_entry = input("Enter fish name: ")
+price_entry = input("Enter fish price: ")
+
+print(fishstore (fish_entry, price_entry))
